@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BeerCell" rowHeight="80" id="KGk-i7-Jjw" customClass="BeerCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icloud.slash.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="qbT-ch-NN2">
+                        <rect key="frame" x="16" y="16" width="50" height="49"/>
+                        <color key="tintColor" systemColor="systemGrayColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="ImV-rW-4Xj"/>
+                            <constraint firstAttribute="width" constant="50" id="WPx-QK-NPM"/>
+                        </constraints>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="mub-ji-gmY">
+                        <rect key="frame" x="82" y="23" width="222" height="34.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Beer name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pkd-F1-Od3">
+                                <rect key="frame" x="0.0" y="0.0" width="222" height="17"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Short description" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yJq-tg-i1P">
+                                <rect key="frame" x="0.0" y="21" width="222" height="13.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="mub-ji-gmY" firstAttribute="leading" secondItem="qbT-ch-NN2" secondAttribute="trailing" constant="16" id="DHe-qV-BOp"/>
+                    <constraint firstItem="qbT-ch-NN2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="DYU-4k-EUR"/>
+                    <constraint firstItem="qbT-ch-NN2" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="eoZ-JO-ldT"/>
+                    <constraint firstItem="mub-ji-gmY" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="rKj-xa-L0s"/>
+                    <constraint firstAttribute="trailing" secondItem="mub-ji-gmY" secondAttribute="trailing" constant="16" id="tfe-cA-Ifg"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="beerDescriptionLabel" destination="yJq-tg-i1P" id="RGk-kA-rm2"/>
+                <outlet property="beerImage" destination="qbT-ch-NN2" id="yOz-Sc-Jm7"/>
+                <outlet property="beerNameLabel" destination="Pkd-F1-Od3" id="z3P-Ox-tb8"/>
+            </connections>
+            <point key="canvasLocation" x="132" y="130"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icloud.slash.fill" catalog="system" width="128" height="101"/>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

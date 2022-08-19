@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B86E714E28AFB9AB00CC9558 /* BeerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B86E714C28AFB9AB00CC9558 /* BeerCell.m */; };
+		B86E714F28AFB9AB00CC9558 /* BeerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B86E714D28AFB9AB00CC9558 /* BeerCell.xib */; };
+		B8CE183C28AF584B000463F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CE183B28AF584B000463F3 /* AppDelegate.m */; };
+		B8CE183F28AF584B000463F3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CE183E28AF584B000463F3 /* SceneDelegate.m */; };
+		B8CE184228AF584B000463F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CE184128AF584B000463F3 /* ViewController.m */; };
+		B8CE184528AF584B000463F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8CE184328AF584B000463F3 /* Main.storyboard */; };
+		B8CE184728AF584C000463F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8CE184628AF584C000463F3 /* Assets.xcassets */; };
+		B8CE184A28AF584C000463F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8CE184828AF584C000463F3 /* LaunchScreen.storyboard */; };
+		B8CE184D28AF584C000463F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CE184C28AF584C000463F3 /* main.m */; };
+		B8CE185928AF597D000463F3 /* Webservice.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CE185828AF597D000463F3 /* Webservice.m */; };
+		B8CE185C28AF6ABA000463F3 /* Beer.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CE185B28AF6ABA000463F3 /* Beer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B86E714B28AFB9AB00CC9558 /* BeerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeerCell.h; sourceTree = "<group>"; };
+		B86E714C28AFB9AB00CC9558 /* BeerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeerCell.m; sourceTree = "<group>"; };
+		B86E714D28AFB9AB00CC9558 /* BeerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BeerCell.xib; sourceTree = "<group>"; };
+		B8CE183728AF584B000463F3 /* PunkBeer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PunkBeer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8CE183A28AF584B000463F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B8CE183B28AF584B000463F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B8CE183D28AF584B000463F3 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		B8CE183E28AF584B000463F3 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		B8CE184028AF584B000463F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B8CE184128AF584B000463F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B8CE184428AF584B000463F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8CE184628AF584C000463F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8CE184928AF584C000463F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B8CE184B28AF584C000463F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8CE184C28AF584C000463F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B8CE185828AF597D000463F3 /* Webservice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Webservice.m; sourceTree = "<group>"; };
+		B8CE185A28AF5985000463F3 /* Webservice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Webservice.h; sourceTree = "<group>"; };
+		B8CE185B28AF6ABA000463F3 /* Beer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Beer.m; sourceTree = "<group>"; };
+		B8CE185D28AF6AC1000463F3 /* Beer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Beer.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8CE183428AF584B000463F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B86E714928AFB96F00CC9558 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B86E714B28AFB9AB00CC9558 /* BeerCell.h */,
+				B86E714C28AFB9AB00CC9558 /* BeerCell.m */,
+				B86E714D28AFB9AB00CC9558 /* BeerCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B8CE182E28AF584B000463F3 = {
+			isa = PBXGroup;
+			children = (
+				B8CE183928AF584B000463F3 /* PunkBeer */,
+				B8CE183828AF584B000463F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8CE183828AF584B000463F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8CE183728AF584B000463F3 /* PunkBeer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8CE183928AF584B000463F3 /* PunkBeer */ = {
+			isa = PBXGroup;
+			children = (
+				B8CE185728AF58F7000463F3 /* Webservice */,
+				B8CE185628AF58F3000463F3 /* Model */,
+				B8CE185328AF58CB000463F3 /* Life Cycle */,
+				B8CE185428AF58D5000463F3 /* Controller */,
+				B8CE185528AF58E1000463F3 /* Storyboard */,
+				B8CE184628AF584C000463F3 /* Assets.xcassets */,
+				B8CE184B28AF584C000463F3 /* Info.plist */,
+				B8CE184C28AF584C000463F3 /* main.m */,
+			);
+			path = PunkBeer;
+			sourceTree = "<group>";
+		};
+		B8CE185328AF58CB000463F3 /* Life Cycle */ = {
+			isa = PBXGroup;
+			children = (
+				B8CE183A28AF584B000463F3 /* AppDelegate.h */,
+				B8CE183B28AF584B000463F3 /* AppDelegate.m */,
+				B8CE183D28AF584B000463F3 /* SceneDelegate.h */,
+				B8CE183E28AF584B000463F3 /* SceneDelegate.m */,
+			);
+			path = "Life Cycle";
+			sourceTree = "<group>";
+		};
+		B8CE185428AF58D5000463F3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B86E714928AFB96F00CC9558 /* Cell */,
+				B8CE184028AF584B000463F3 /* ViewController.h */,
+				B8CE184128AF584B000463F3 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B8CE185528AF58E1000463F3 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				B8CE184828AF584C000463F3 /* LaunchScreen.storyboard */,
+				B8CE184328AF584B000463F3 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		B8CE185628AF58F3000463F3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B8CE185B28AF6ABA000463F3 /* Beer.m */,
+				B8CE185D28AF6AC1000463F3 /* Beer.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B8CE185728AF58F7000463F3 /* Webservice */ = {
+			isa = PBXGroup;
+			children = (
+				B8CE185A28AF5985000463F3 /* Webservice.h */,
+				B8CE185828AF597D000463F3 /* Webservice.m */,
+			);
+			path = Webservice;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8CE183628AF584B000463F3 /* PunkBeer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8CE185028AF584C000463F3 /* Build configuration list for PBXNativeTarget "PunkBeer" */;
+			buildPhases = (
+				B8CE183328AF584B000463F3 /* Sources */,
+				B8CE183428AF584B000463F3 /* Frameworks */,
+				B8CE183528AF584B000463F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PunkBeer;
+			productName = PunkBeer;
+			productReference = B8CE183728AF584B000463F3 /* PunkBeer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8CE182F28AF584B000463F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					B8CE183628AF584B000463F3 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = B8CE183228AF584B000463F3 /* Build configuration list for PBXProject "PunkBeer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8CE182E28AF584B000463F3;
+			productRefGroup = B8CE183828AF584B000463F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8CE183628AF584B000463F3 /* PunkBeer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8CE183528AF584B000463F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8CE184A28AF584C000463F3 /* LaunchScreen.storyboard in Resources */,
+				B8CE184728AF584C000463F3 /* Assets.xcassets in Resources */,
+				B8CE184528AF584B000463F3 /* Main.storyboard in Resources */,
+				B86E714F28AFB9AB00CC9558 /* BeerCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8CE183328AF584B000463F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8CE184228AF584B000463F3 /* ViewController.m in Sources */,
+				B8CE183C28AF584B000463F3 /* AppDelegate.m in Sources */,
+				B8CE184D28AF584C000463F3 /* main.m in Sources */,
+				B8CE185C28AF6ABA000463F3 /* Beer.m in Sources */,
+				B86E714E28AFB9AB00CC9558 /* BeerCell.m in Sources */,
+				B8CE183F28AF584B000463F3 /* SceneDelegate.m in Sources */,
+				B8CE185928AF597D000463F3 /* Webservice.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B8CE184328AF584B000463F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8CE184428AF584B000463F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B8CE184828AF584C000463F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8CE184928AF584C000463F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8CE184E28AF584C000463F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B8CE184F28AF584C000463F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8CE185128AF584C000463F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6J2XDDYT2W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PunkBeer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cleanrun.PunkBeer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B8CE185228AF584C000463F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6J2XDDYT2W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PunkBeer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cleanrun.PunkBeer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8CE183228AF584B000463F3 /* Build configuration list for PBXProject "PunkBeer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8CE184E28AF584C000463F3 /* Debug */,
+				B8CE184F28AF584C000463F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8CE185028AF584C000463F3 /* Build configuration list for PBXNativeTarget "PunkBeer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8CE185128AF584C000463F3 /* Debug */,
+				B8CE185228AF584C000463F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8CE182F28AF584B000463F3 /* Project object */;
+}
