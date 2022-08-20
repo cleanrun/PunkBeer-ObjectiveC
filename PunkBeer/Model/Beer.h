@@ -19,7 +19,7 @@
 @property (strong, nonatomic) NSString *imageUrl;
 @property (nonatomic) float abv;
 
-- (id) initWithDictionary:(NSDictionary*) dictionary;
++ (instancetype) initWithDictionary:(NSDictionary*) dictionary;
 
 @end
 

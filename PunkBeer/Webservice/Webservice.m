@@ -40,7 +40,7 @@ static Webservice *_shared = nil;
                     NSMutableArray *mutableArrayOfData = [[NSMutableArray alloc] init];
                     
                     for (NSDictionary *dataDict in arrayOfRawData) {
-                        Beer *beer = [[Beer alloc] initWithDictionary:dataDict];
+                        Beer *beer = [Beer initWithDictionary:dataDict];
                         [mutableArrayOfData addObject:beer];
                     }
                     

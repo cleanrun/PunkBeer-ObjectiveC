@@ -14,7 +14,7 @@
 
 @implementation Beer
 
-- (id) initWithDictionary:(NSDictionary*) dictionary {
++ (instancetype) initWithDictionary:(NSDictionary*) dictionary {
     Beer* beer = [[Beer alloc] init];
     
     beer.id = [[dictionary valueForKey:@"id"] intValue];
